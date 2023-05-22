@@ -1,0 +1,496 @@
+/* All Página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #e60000;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  header .name {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  ::marker {
+    color: #fdfdfd00;
+}
+
+
+
+
+  /* Banner */
+  .banner {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .banner img {
+    max-width: 100%;
+    bottom: -14px;
+    position: relative;
+  }
+  
+  /* Estilos de Mensagem */
+  .message {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .message h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .message ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .message ul li {
+    display: inline-block;
+  }
+  
+  .message ul li a {
+    display: inline-block;
+    background-color: #e60000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .button-red {
+    display: inline-block;
+    background-color: #e60000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-red:hover {
+    background-color: #ff3333;
+  }
+  
+  a.button-red {
+    width: 10%;
+}
+
+  /* Tabelas */
+  .table {
+    margin-bottom: 20px;
+  }
+  
+  .table h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .table p {
+    margin-bottom: 10px;
+  }
+  
+  .price-table-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .price-table {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .price-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .price-table table th,
+  .price-table table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .price-table table th {
+    background-color: #e60000;
+    color: #fff;
+  }
+  
+  .price-table table td {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .price-table table td:first-child {
+    font-weight: bold;
+  }
+  
+  .price-table table td:last-child {
+    text-align: right;
+  }
+  
+  .price-table p {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  /* Produtos */
+
+.products {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .products h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .products p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .products article {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    padding: 10px;
+  }
+  
+  .products article p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .products article h4 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .products article img {
+    max-width: 35%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+  .products article a {
+    display: inline-block;
+    background-color: #e60000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .products article a:hover {
+    background-color: #ff3333;
+  }
+  
+  
+  
+  /* Estilos do Passo a Passo */
+.steps {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .steps h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .steps p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .steps .step-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .steps .step-list li {
+    margin-bottom: 20px;
+  }
+  
+  .steps .step-list li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .steps .step-list li .step-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .steps .step-list li .step-description {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Estilização para a seção de passo a passo */
+.step.by.step {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9f9; /* cor de fundo */
+  padding: 40px; /* espaçamento interno */
+  text-align: center;
+}
+
+.step.by.step h3 {
+  color: red; /* cor do título */
+  font-size: 24px; /* tamanho do título */
+  margin-bottom: 20px; /* espaçamento inferior */
+}
+
+.step.by.step .left,
+.step.by.step .right {
+  flex-basis: 45%; /* largura dos elementos */
+}
+
+.step.by.step .step-info {
+  text-align: left;
+}
+
+.step.by.step .step-info h4 {
+  font-size: 20px; /* tamanho do título do passo */
+  margin-bottom: 5px; /* espaçamento inferior */
+}
+
+.step.by.step .step-info p {
+  font-size: 16px; /* tamanho do texto do passo */
+  margin-bottom: 0;
+}
+
+.step.by.step a {
+  display: inline-block;
+  background-color: red; /* cor de fundo do botão */
+  color: #fff; /* cor do texto do botão */
+  padding: 10px 20px; /* espaçamento interno do botão */
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px; /* espaçamento superior */
+}
+
+.step.by.step a:hover {
+  background-color: #990000; /* cor de fundo do botão ao passar o mouse */
+}
+
+    /* Estilização para a seção de contato */
+.contact {
+  background-color: #fff; /* cor de fundo */
+  padding: 20px; /* espaçamento interno */
+  text-align: center;
+}
+
+.contact p {
+  color: #000; /* cor do texto */
+  font-size: 18px; /* tamanho do texto */
+}
+
+.contact a {
+  display: inline-block;
+  background-color: red; /* cor de fundo do botão */
+  color: #fff; /* cor do texto do botão */
+  padding: 10px 20px; /* espaçamento interno do botão */
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px; /* espaçamento superior */
+}
+
+.contact a:hover {
+  background-color: #990000; /* cor de fundo do botão ao passar o mouse */
+}
+
+  /* Estilos do Rodapé */
+  footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    color: #777;
+  }
+
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: #777;
+    text-decoration: none;
+    padding: 4px;
+}
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+  
+
+  /* Estilos para telas menores */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    header {
+      padding: 10px;
+    }
+  
+    header .name {
+      font-size: 18px;
+    }
+  
+    header nav ul li {
+      margin-right: 5px;
+    }
+  
+    .banner img {
+      bottom: 0;
+    }
+  
+    .message h3 {
+      font-size: 20px;
+    }
+  
+    .message ul li a {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    .table h4 {
+      font-size: 18px;
+    }
+  
+    .price-table {
+      padding: 10px;
+    }
+  
+    .price-table table th,
+    .price-table table td {
+      padding: 8px;
+    }
+  
+    .price-table p {
+      font-size: 10px;
+    }
+  
+    .products h2 {
+      font-size: 20px;
+    }
+  
+    .products article p {
+      font-size: 14px;
+    }
+  
+    .products article h4 {
+      font-size: 16px;
+    }
+  
+    .products article img {
+      max-width: 50%;
+    }
+  
+    .products article a {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    .steps h2 {
+      font-size: 20px;
+    }
+  
+    .steps p {
+      font-size: 14px;
+    }
+  
+    .steps .step-list li .step-title {
+      font-size: 16px;
+    }
+  
+    .steps .step-list li .step-description {
+      font-size: 14px;
+    }
+  
+    .step.by.step h3 {
+      font-size: 19px;
+      width: 8rem;
+    }
+  
+    .step.by.step .step-info h4 {
+      font-size: 18px;
+    }
+  
+    .step.by.step .step-info p {
+      font-size: 14px;
+    }
+  
+    .step.by.step a {
+      padding: 8px 16px;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  
+    .contact p {
+      font-size: 16px;
+    }
+  
+    .contact a {
+      padding: 8px 16px;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+
+    .step.by.step .left, .step.by.step .right {
+      flex-basis: 45%;
+      right: 6%;
+      position: relative;
+  }
+  
+  
+    footer p {
+      font-size: 14px;
+    }
+  }
